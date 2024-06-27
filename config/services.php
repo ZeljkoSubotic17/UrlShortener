@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_version' => env('GOOGLE_CLIENT_VERSION'),
+        'api_key' => env('GOOGLE_API_KEY'),
+    ],
+
 ];
